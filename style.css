@@ -51,8 +51,9 @@ margin-top: 50px;
   top: 0; /* Adjust as necessary */
   left: 0; /* Adjust as necessary */
   margin: 26px 221px 45px 221px;
-
-margin: 157px 221px ;
+  margin: 157px 221px ;
+  text-align: center;
+  margin: 26px 221px 45px 221px;
 
 }
 
@@ -62,12 +63,7 @@ margin: 157px 221px ;
   
 }
 
-.bannerContent{
-  text-align: center;
- margin: 26px 221px 45px 221px;
 
- 
-}
 
 .contactBtn{
   font-family: "Azeret Mono", monospace;
@@ -78,6 +74,7 @@ margin: 157px 221px ;
   border-radius:8px;
   padding: 21px 24px;
   border-color: #0D1321;
+  text-decoration: none; 
 
 }
 
@@ -213,8 +210,58 @@ color:rgba(13, 19, 33, 0.7) ;
 }
 
 
-.skill-title{
-  size: 24px;
-  color:#0D1321 ;
-  font-weight: bold;
+.target-title{
+    size: 24px;
+    color:#0D1321 ;
+    font-weight: bold;
+}
+.supportTitletxt{
+    font-size: 32px bold;
+    color: #fff;
+}
+.support{
+ 
+    position: relative;
+    height: 313px;
+    width: 1140px;
+
+}
+.supportContent{
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  margin: 26px 221px 45px 221px;
+  text-align: center;
+  padding: 64px 48px 64px 48px;
+
+}
+.background-image{
+  height: 313px;
+  width: 1140px;
+  border-radius:16px;
+  margin:49px 150px 0px 150px;
+}
+.descText2{
+  size: 16px;
+  color: #FFFFFF ;
+  
+}
+.submit{
+  width: 120px;
+  height: 57px;
+  background-color:#FFFFFF ;
+  border-radius: 8px;
+  border-style: none;
+}
+.footermain{
+margin: 80px;
+height:100px;
+width:1140px;
+background-color:rgba(13, 19, 33, 0.03);
+}
+
+.footermain{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
