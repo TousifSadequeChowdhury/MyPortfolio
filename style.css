@@ -213,32 +213,35 @@ color:rgba(13, 19, 33, 0.7) ;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   margin: 0 auto;
   gap: 10px;
   padding-bottom: 20px;
 }
+.inspiration-text h2{
+  font-size: 32px;
+  font-weight: 800;
+}
 .inspiration-video{
-  border: 1px solid red;
+  border: 1px solid #C9CACE;
   border-radius: 10px;
   margin-right: 90px
 }
 .iframe-video{
-  border-radius: 10px;
+  border-radius: 16px;
   padding: 20px;
 }
 
-
-
-/* Current target style starts */
-.CurrentTarget{
-  text-align: center;
- margin: 151px 150px 0px 150px ;
+.mainvid{
+  border-radius: 16px;
 }
 
-.CurrentTarget{
+/* Current target style starts */
+
+/* .CurrentTarget{
   text-align: center;
   padding:0px 144px ;
+  margin: 151px 142px 0px 150px ;
 }
 
 .target-containers{
@@ -253,12 +256,69 @@ color:rgba(13, 19, 33, 0.7) ;
   text-align: left;
 }
 
+.target-containerc1{
+background-color: #FFF6F4;
+}
+.target-containerc2{
+  background-color: #EBEBEB;
+}
+
+.target-containerc3{
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+
 
 .target-title{
     size: 24px;
     color:#0D1321 ;
     font-weight: bold;
+} */
+
+
+/* Current target style starts */
+.CurrentSection{
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 160px;
+  margin-top: 48px;
+  justify-content: center;
 }
+.CurrentSectionTitle{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.CurrentSectionContainers{
+  display: flex;
+gap: 20px;
+}
+.CurrentSectionContainer{
+  
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#html{
+  background-color:rgb(255, 246, 244);
+
+}
+#css{
+  background-color: #F2F6FE;
+}
+#js{
+  background-color: #FFFDF2;
+}
+
+/* support section style starts */
 .supportTitletxt{
     font-size: 32px bold;
     color: #fff;
@@ -309,3 +369,6 @@ background-color:rgba(13, 19, 33, 0.03);
   justify-content: space-around;
   align-items: center;
 }
+
+
+
